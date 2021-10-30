@@ -709,6 +709,7 @@ L["statList"] = {
 	{pattern = "spell hit rating", id = CR_HIT_SPELL},
 	{pattern = "ranged hit rating", id = CR_HIT_RANGED},
 	{pattern = "hit rating", id = CR_HIT_MELEE},
+	
 
 	{pattern = "resilience", id = CR_CRIT_TAKEN_MELEE}, -- resilience is implicitly a rating
 
@@ -747,6 +748,8 @@ L["statList"] = {
 -- EX: "$value% Crit" -> "+1.34% Crit"
 -- EX: "Crit $value%" -> "Crit +1.34%"
 L["$value% Crit"] = true
+L["$value% Spell Crit"] = true
+L["$value% Melee Hit"] = true
 L["$value% Spell Crit"] = true
 L["$value% Dodge"] = true
 L["$value HP"] = true
